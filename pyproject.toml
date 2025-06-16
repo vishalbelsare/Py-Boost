@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "Py-Boost"
-version = "0.5.1"
+version = "0.5.2"
 description = "Python based GBDT"
 
 authors = [
@@ -17,6 +17,8 @@ classifiers = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Operating System :: OS Independent",
     "Intended Audience :: Science/Research",
     "Development Status :: 3 - Alpha",
@@ -27,7 +29,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 
-python = ">=3.8, <3.12"
+python = ">=3.8, <3.14"
 
 scikit-learn = ">=1"
 numpy = "*"
